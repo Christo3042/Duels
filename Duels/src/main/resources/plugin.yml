@@ -1,0 +1,10 @@
+name: Duels
+version: ${project.version}
+main: me.christo.duels.Main
+api-version: 1.13
+authors: [chriisto]
+description: Duels
+website: http://www.devchristo.com/
+commands:
+  duel:
+    description: Enters a duel with another player!

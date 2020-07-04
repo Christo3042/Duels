@@ -1,0 +1,28 @@
+# World Combat (Duels) v1.0 by chriisto.
+
+#The regions that players are allowed to /duel in.
+
+AllowedRegions:
+  - "pvp"
+  - "testregion"
+
+#/duel <player>
+DuelRequest: "&bDuels &f> &7You have requested to duel {player}"
+# (perspective of the player that is getting dueled)
+DuelRequestConfirmation: "&bDuels &f> &7{player} has request to duel you. /duel accept {player}"
+#/duel accept <player>
+AcceptedDuel: "&bDuels &f> &7You accepted {player}'s duel!"
+#/duel <player> (when said player is already in a duel)
+PlayerInDuel: "&bDuels &f> &7{player} is already in a duel!"
+#/duel <player> (when duels are not allowed in that specifc region)
+DisabledRegionMsg: "&bDuels &f> &7Duels are not allowed in this area!"
+#/duel accept (when user does not specify the player)
+InvalidUsage: "&bDuels &f> &cInvalid Usage: &7/duel accept <player>"
+#/duel <player> (when duels are disabled in the world)
+
+#Countdown
+3: "&bDuels &f> &73..."
+2: "&bDuels &f> &72..."
+1: "&bDuels &f> &71..."
+FightMsg: "&bDuels &f> &b&LFIGHT!"
+
